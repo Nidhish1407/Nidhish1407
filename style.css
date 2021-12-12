@@ -58,9 +58,18 @@ h2{
     font-size: 50px;
 }
 
+hr{
+    margin: 0 15px;
+}
+
 p{
     margin: 0;
     font-size: 3rem;
+    font-weight: 300;
+}
+.subtext{
+    margin: 10px;
+    font-size:15px;
     font-weight: 300;
 }
 
@@ -134,17 +143,66 @@ a:focus{
 }
 
 
-
-.profile-pic-container{
-    /* display: flex; */
-    /* align-items: center; */
-}
-
 .profile-pic{
     margin: 1em;
     border-radius: 50%;
     width: 300px;
 }
+
+.sub-section2{
+    padding: 80px;
+    background-color: #1c1d25;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.project-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.project-card{
+    width: 300px;
+    height:500px;
+    background-color: rgb(26, 21, 21);
+    color: white;
+    border-radius: 5px;
+    margin:10px;
+    box-shadow: 5px 5px 15px rgb(122, 121, 121);
+}
+
+.project-card+.project-card{
+    margin-left: 15px;
+}
+
+.project-image{
+    margin-top: 25px;
+    height:300px;
+    width:250px;
+    border:1px solid rgb(204, 197, 197);
+    border-radius: 50%;
+}
+
+.project-link
+{
+    color: #ef744b;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+
+footer p{
+    font-size:20px;
+}
+
+
 
 @media (min-width:700px){
     nav{
@@ -196,10 +254,25 @@ a:focus{
         text-align: left;
         flex-direction: row;
         justify-content: space-around;
-        /* align-content: stretch; */
         padding: 80px;
     }
-    .profile-pic{
+    .profile-pic{ 
         margin: 0;
     }
+    
+    .project-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:stretch;
+    }
+
+    footer{
+        padding: 80px;
+    }
+
+    footer p{
+        font-size:xx-large;
+    }
+
 }
