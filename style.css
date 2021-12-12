@@ -1,4 +1,6 @@
 *{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 body{
@@ -14,10 +16,9 @@ section{
 
 .hero{
     height: 100vh;
-    /* #2d3046; */
     background-color: #1c1d25;
     color: white;
-    font-size: 40px;
+    font-size: 1rem;
 }
 
 footer{
@@ -27,24 +28,28 @@ footer{
 
 nav{
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin-left: 0;
+    margin-bottom: 60px;
 }
 
 ul{
     display: flex;
+    flex-direction: column;
     list-style: none;
-    width: 700px;
-    font-size: 30px;
-    justify-content: space-around;
+    font-size: 2rem;
+    margin-top: 0;
 }
 
 li{
-    /* width:130px; */
-    /* text-decoration: none; */
+    text-align:center;
 }
 
 h1{
-    font-size: 90px;
+    font-size: 6rem;
     margin: 0;
 }
 
@@ -55,7 +60,7 @@ h2{
 
 p{
     margin: 0;
-    font-size: 30px;
+    font-size: 3rem;
     font-weight: 300;
 }
 
@@ -72,22 +77,26 @@ a:focus{
 .hero-area{
     height: 100%;
     display: flex;
-    /* flex-direction: column; */
-    align-items: center;
-    justify-content: space-between;
+    flex-direction: column;
+    /* align-content: center; */
+    /* justify-content: space-between; */
 }
 
 .hero-text{
-    margin-left: 80px;
-    margin-bottom: 200px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    /* margin-bottom: 200px; */
 }
 
 .btn{
-    width:200px;
-    height: 55px;
+    /* width:200px;
+    height: 55px; */
     font-size: 30px;
-    padding-top: 5px;
-    margin-top: 20px;
+    padding:0.2em 0.4em;
+    margin: 30px auto;
     background-color: coral;
     border-radius: 30px;
     text-align: center;
@@ -104,9 +113,11 @@ a:focus{
 }
 
 .socials{
-    padding-bottom: 200px;
+    /* padding-bottom: 200px; */
     display: flex;
-    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    /* flex-direction: column; */
 }
 
 .social{
@@ -115,16 +126,80 @@ a:focus{
 
 .sub-section{
     display: flex;
-    justify-content: space-around;
-    padding: 80px;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding: 1em;
 }
 
+
+
 .profile-pic-container{
-    display: flex;
-    align-items: center;
+    /* display: flex; */
+    /* align-items: center; */
 }
 
 .profile-pic{
+    margin: 1em;
     border-radius: 50%;
     width: 300px;
+}
+
+@media (min-width:700px){
+    nav{
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    text-align: justify;
+}
+
+    ul{
+        max-width: 70%;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 25px;
+    }
+
+    li + li{
+        margin-left: 1em;
+    }
+
+    .hero-area{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    }
+
+    .hero-text{
+    text-align: left;
+    margin-left: 80px;
+    margin-bottom: 200px;
+    }
+    
+    .socials{
+        padding-bottom: 200px;
+        flex-direction: column;
+    }
+
+    .btn{
+        width:200px;
+        height: 55px;
+        margin: 0;
+        margin-top: 20px;
+        padding-top: 7px;
+    }
+
+    .sub-section{
+        text-align: left;
+        flex-direction: row;
+        justify-content: space-around;
+        /* align-content: stretch; */
+        padding: 80px;
+    }
+    .profile-pic{
+        margin: 0;
+    }
 }
