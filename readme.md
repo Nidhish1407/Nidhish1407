@@ -1,5 +1,5 @@
-<!-- <a href="#"><img width="100%" height="auto" src="https://i.imgur.com/iXuL1HG.png" height="175px"/></a> -->
-<a href="#"><img width="100%" height="auto" src="/nidhish.jpeg" height="175px"/></a>
+<a href="#"><img width="100%" height="auto" src="https://i.imgur.com/iXuL1HG.png" height="175px"/></a>
+<!-- <a href="#"><img width="175px" border-radius="20pxpx" src="/nidhish.jpeg" height="175px"/></a> -->
 
 <h1 align="center">Hi <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">, I'm Nidhish</h1>
 <h3 align="center">I'm a Web Developer.</h3>
