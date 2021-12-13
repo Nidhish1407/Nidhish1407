@@ -7,14 +7,14 @@
 
 ## 🙋‍♂️ About Me
 
- - 🔭 I’m currently working on my portfolio. <!-- **[]()** -->
+ - 🔭 I’m currently working on Huffman encoding project. <!-- **[]()** -->
 
 - 🌱 I’m currently learning **Data Structures and Algorithms.**
-- 🌿 I practice regularly on **[Leetcode](https://leetcode.com/nidhishp07/)**
+- 🌿 I practice regularly on **[Leetcode](https://leetcode.com/nidhishp07/)**.
 
-- 👯 I’m looking to collaborate on **Projects**
+- 👯 I’m looking to collaborate on **Cool Projects**.
 
-<!-- - 👨‍💻 All of my projects are available at **[My Portfolio]()** -->
+- 👨‍💻 My favourite projects are available at **[My Portfolio](https://nidhish1407.github.io/Nidhish1407/)**.
 <!--  -->
 - 📫 How to reach me **nidhishprasad1@gmail.com** 
 
