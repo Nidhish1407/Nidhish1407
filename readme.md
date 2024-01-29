@@ -7,7 +7,7 @@
 
 ## 🙋‍♂️ About Me
 
- - 🔭 I’m currently working on Huffman encoding project. <!-- **[]()** -->
+ - 🔭 I’m currently learning Kafka and trying to build Zomato's live location tracking-like feature with spring boot  <!-- **[]()** -->
 
 - 🌱 I’m currently learning **Data Structures and Algorithms.**
 - 🌿 I practice regularly on **[Leetcode](https://leetcode.com/nidhishp07/)**.
@@ -18,7 +18,7 @@
 <!--  -->
 - 📫 How to reach me **nidhishprasad1@gmail.com** 
 
-- ⚡ Fun fact **I like watching web series,movies and playing pubg new state.**
+- ⚡ Fun fact **I like watching web series, movies and working out.**
 
 ## 🚀 Languages and Tools:
 
